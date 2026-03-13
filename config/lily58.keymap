@@ -10,11 +10,13 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // Increase scroll speed (default: 10)
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25
 
 / {
     behaviors {
         // Snappy scroll: quick ramp-up with linear acceleration
+
         msc {
             time-to-max-speed-ms = <100>;
             acceleration-exponent = <1>;
@@ -28,7 +30,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <1000>;
         };
-
     };
 
     keymap {
@@ -44,7 +45,7 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp TILDE       &kp N2  &kp N3    &kp N4    &kp N5                           &kp N6     &kp N7             &kp N8         &kp N9     &kp N0            &kp BACKSPACE
+&kp ESC    &kp TILDE       &kp N2  &kp N3    &kp N4    &kp N5                           &kp N6     &kp N7             &kp N8         &kp MINUS  &kp EQUAL         &kp BACKSPACE
 &kp TAB    &kp Q           &kp W   &kp E     &kp R     &kp T                            &kp Y      &kp U              &kp I          &kp O      &kp P             &kp FSLH
 &kp LCTRL  &kp A           &kp S   &kp D     &kp F     &kp G                            &kp H      &kp J              &kp K          &kp L      &kp SINGLE_QUOTE  &kp ENTER
 &none      &kp LEFT_SHIFT  &kp Z   &kp X     &kp C     &kp V      &kp LBKT    &kp RBKT  &kp B      &kp N              &kp M          &kp COMMA  &kp PERIOD        &kp RSHFT
@@ -90,10 +91,10 @@
 
         layer_3 {
             bindings = <
-&to 0                  &trans  &trans  &trans        &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans                 &trans  &trans  &trans        &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans                 &trans  &trans  &trans        &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans                 &trans  &trans  &trans        &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR
+&to 0   &trans  &trans  &trans        &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR
                         &kp LEFT_ALT  &kp LEFT_GUI  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
