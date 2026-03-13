@@ -22,7 +22,7 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1          &kp N2  &kp N3    &kp N4    &kp N5                           &kp N6     &kp N7             &kp N8         &kp N9     &kp N0      &kp BACKSPACE
+&kp ESC    &kp TILDE       &kp N2  &kp N3    &kp N4    &kp N5                           &kp N6     &kp N7             &kp N8         &kp N9     &kp N0      &kp BACKSPACE
 &kp TAB    &kp Q           &kp W   &kp E     &kp R     &kp T                            &kp Y      &kp U              &kp I          &kp O      &kp P       &kp ENTER
 &kp LCTRL  &kp A           &kp S   &kp D     &kp F     &kp G                            &kp H      &kp J              &kp K          &kp L      &kp SEMI    &kp ENTER
 &none      &kp LEFT_SHIFT  &kp Z   &kp X     &kp C     &kp V      &kp LBKT    &kp RBKT  &kp B      &kp N              &kp M          &kp COMMA  &kp PERIOD  &kp RSHFT
@@ -40,11 +40,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_SEL 3    &bt BT_SEL 4                    &trans  &trans        &trans        &trans        &trans                &trans
-&trans      &trans        &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &trans                          &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&kp GRAVE   &kp EXCL      &kp AT                &kp HASH              &kp DOLLAR      &kp PRCNT                       &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans      &trans        &trans                &trans                &trans          &trans        &trans    &trans  &trans  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACE        &kp RIGHT_BRACE
-                                                &trans                &trans          &trans        &trans    &to 3   &trans  &kp N0        &trans
+&trans     &bt BT_SEL 0  &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_SEL 3    &bt BT_SEL 4                    &trans  &trans        &trans        &trans        &trans                &trans
+&trans     &trans        &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &trans                          &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp GRAVE  &kp EXCL      &kp AT                &kp HASH              &kp DOLLAR      &kp PRCNT                       &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans     &kp CARET     &kp AMPERSAND         &kp ASTERISK          &trans          &trans        &trans    &trans  &trans  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACE        &kp RIGHT_BRACE
+                                               &trans                &trans          &trans        &trans    &to 3   &trans  &kp N0        &trans
             >;
         };
 
@@ -69,10 +69,10 @@
         layer_3 {
             display-name = "Layer 3";
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                     &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &trans
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6          &kp N7            &kp N8      &kp N9             &kp N0           &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans          &kp LEFT          &kp DOWN    &kp UP             &kp RIGHT        &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS     &kp MINUS         &kp EQUAL   &kp LBKT           &kp RBKT         &kp BSLH
+&to 0      &trans  &trans  &trans   &trans   &trans                     &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6          &kp N7            &kp N8      &kp N9      &kp N0             &trans
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans          &kp LEFT          &kp DOWN    &kp UP      &kp RIGHT          &trans
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS     &kp MINUS         &kp EQUAL   &kp LBKT    &kp RBKT           &kp BSLH
                            &trans   &trans   &trans   &trans    &trans  &trans          &trans            &trans
             >;
         };
