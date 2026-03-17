@@ -106,7 +106,7 @@
 &to 0   &trans  &trans          &trans          &trans           &trans                                             &trans              &kp LG(LS(LEFT_BRACKET))                           &trans            &kp LG(LS(RIGHT_BRACKET))                            &mt K_MUTE C_VOL_DN    &kp C_VOLUME_UP
 &trans  &trans  &trans          &msc SCRL_UP    &trans           &trans                                             &trans              &mt RG(RA(RS(LEFT_BRACKET))) RG(RA(LEFT_BRACKET))  &kp UP_ARROW      &mt RG(RA(RS(RIGHT_BRACKET))) RA(RG(RIGHT_BRACKET))  &kp RA(RG(BACKSLASH))  &kp C_PLAY_PAUSE
 &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans                                             &trans              &kp LEFT                                           &kp DOWN          &kp RIGHT                                            &kp LEFT_ALT           &kp RIGHT_COMMAND
-&trans  &trans  &trans          &trans          &trans           &trans  &trans    &mt RA(BACKSPACE) RG(BACKSPACE)  &kp LC(DOWN_ARROW)  &kp LC(LEFT_ARROW)                                 &kp LC(UP_ARROW)  &kp LC(RIGHT)                                        &kp LEFT_CONTROL       &trans
+&trans  &trans  &trans          &trans          &trans           &trans  &trans    &mt RG(BACKSPACE) RA(BACKSPACE)  &kp LC(DOWN_ARROW)  &kp LC(LEFT_ARROW)                                 &kp LC(UP_ARROW)  &kp LC(RIGHT)                                        &kp LEFT_CONTROL       &trans
                                 &trans          &trans           &trans  &to 3     &trans                           &trans              &trans                                             &trans
             >;
         };
