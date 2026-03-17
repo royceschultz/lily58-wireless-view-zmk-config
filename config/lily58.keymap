@@ -56,6 +56,13 @@
         Backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <10 11>;
+            layers = <0>;
+        };
+
+        Backspace_2 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <34 33>;
+            layers = <0>;
         };
     };
 
