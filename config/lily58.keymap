@@ -53,16 +53,10 @@
             key-positions = <6 7>;
         };
 
-        Backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <10 11>;
-            layers = <0>;
-        };
-
         Backspace_2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <34 33>;
-            layers = <0>;
+            layers = <0 2 3>;
         };
 
         Num-6 {
@@ -167,11 +161,11 @@
 
         Gaming {
             bindings = <
-&kp ESCAPE  &none           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4                        &to 0   &trans    &trans          &trans           &mt C_MUTE C_VOLUME_DOWN  &kp C_VOLUME_UP
-&kp T       &kp TAB         &kp Q         &kp W         &kp E             &kp R                               &trans  &trans    &kp UP_ARROW    &trans           &trans                    &trans
-&kp G       &kp LEFT_SHIFT  &kp A         &kp S         &kp D             &kp F                               &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &trans
-&none       &none           &kp Z         &kp X         &kp C             &kp V         &kp RETURN    &trans  &trans  &trans    &trans          &trans           &trans                    &trans
-                                          &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LCTRL     &kp SPACE     &trans  &trans  &trans    &trans
+&kp ESCAPE     &none           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4                        &to 0   &trans    &trans          &trans           &mt C_MUTE C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp T          &kp TAB         &kp Q         &kp W         &kp E             &kp R                               &trans  &trans    &kp UP_ARROW    &trans           &trans                    &trans
+&kp G          &kp LEFT_SHIFT  &kp A         &kp S         &kp D             &kp F                               &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &trans
+&kp BACKSPACE  &none           &kp Z         &kp X         &kp C             &kp V         &kp RETURN    &trans  &trans  &trans    &trans          &trans           &trans                    &trans
+                                             &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LCTRL     &kp SPACE     &trans  &trans  &trans    &trans
             >;
 
             label = "Gaming";
