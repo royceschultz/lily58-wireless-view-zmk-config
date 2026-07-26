@@ -61,7 +61,7 @@
         Backspace_2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <34 33>;
-            layers = <0 2 3>;
+            layers = <0 2 3 1>;
         };
 
         Num-6 {
@@ -130,7 +130,7 @@
 &bt BT_SEL 0  &trans           &kp LG(LS(NUMBER_3))                               &kp LG(LS(NUMBER_4))             &kp LG(LS(N5))                                       &kp CARET                                   &kp NUMBER_0  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp SLASH
 &bt BT_SEL 1  &trans           &mt RS(RA(RG(LEFT_BRACKET))) RG(RA(LEFT_BRACKET))  &kp LG(LA(BACKSLASH))            &mt RA(RG(RS(RIGHT_BRACKET))) RA(RG(RIGHT_BRACKET))  &kp AMPERSAND                               &kp PERIOD    &kp NUMBER_4     &kp N5        &kp NUMBER_6  &kp PLUS      &kp MINUS
 &bt BT_SEL 2  &trans           &kp LC(LEFT)                                       &mt LC(DOWN_ARROW) LC(UP_ARROW)  &kp LC(RIGHT_ARROW)                                  &kp ASTERISK   &kp SPACE    &sk LEFT_SHIFT  &trans        &kp N7           &kp N8        &kp N9        &kp EQUAL     &trans
-                                                                                  &trans                           &trans                                               &trans         &trans       &to 2           &kp NUMBER_0  &kp RIGHT_SHIFT  &trans
+                                                                                  &trans                           &trans                                               &trans         &trans       &mo 2           &kp NUMBER_0  &kp RIGHT_SHIFT  &trans
             >;
         };
 
